@@ -3,14 +3,18 @@ package ru.geekbrains.java.Animals;
 public class Cat extends Animal {
     String color;
 
-    public Cat(String name) {
+    public Cat(String name, String color) {
         super(name);
         this.color = color;
+
     }
-//
-//    public void catInfo() {
-//        System.out.println("Кот имя: " + name + " цвет: " + color);
-//    }
+
+    public void catInfo(){
+        //System.out.println("Имя кота / кошки: " + name);
+        System.out.println("Цвет: " + color);
+    }
+
+
 //
 //    public class AnimalsApp {
 //        public void main(String[] args) {

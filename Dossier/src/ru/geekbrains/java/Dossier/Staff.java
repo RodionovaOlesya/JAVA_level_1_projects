@@ -7,6 +7,7 @@ public class Staff {
     String telNum;
     int salary;
     int age;
+   // public static Random rand = new Random ();
 
        public Staff(String name, String position, String email, String telNum, int salary, int age) {
         this.name = name;
@@ -16,5 +17,4 @@ public class Staff {
         this.salary = salary;
         this.age = age;
     }
-
 }
